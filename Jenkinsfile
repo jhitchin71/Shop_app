@@ -6,11 +6,10 @@ pipeline {
                     description: 'Read Jenkinsfile and exit.')
                     }
     stages {
-        stage('</>') {
+        stage('Building') {
             steps {
                 sh 'sudo apt install tree'
             }
         }
-        </>
     }
  }
